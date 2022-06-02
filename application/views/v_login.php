@@ -5,13 +5,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portal Presensi Tim haycab">
+    
+    <meta property="og:title" content="LOGIN | PRESENSI TIM HAYCAB">
+    <meta property="og:description" content="Portal Presensi Tim haycab">
+    <meta property="og:image" content="https://haycabgo.com/assets/images/new-assets/logo.png">
+    <meta property="og:url" content="https://haycabgo.com/presensi">
+
     <link rel="icon" href="img/ung.png">
     <link rel="stylesheet" href="<?= base_url('public/bootstrap/css/bootstrap.min.css') ?>">
     <link rel="stylesheet" href="<?= base_url('public/bootstrap/css/bootstrap.css') ?>">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap" rel="stylesheet">
-    <title>LOGIN | PRESENSI HAYCAB</title>
+    <title>LOGIN | PRESENSI TIM HAYCAB</title>
     <style>
         body{
             font-family: 'Quicksand', sans-serif;
