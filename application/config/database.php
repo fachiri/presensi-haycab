@@ -75,9 +75,9 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'localhost',
-	'username' => 'root',
-	'password' => '',
+	'hostname' => '127.0.0.1',
+	'username' => 'u422015075_presensi_user',
+	'password' => 'Admin@haycab123',
 	'database' => 'u422015075_presensi_db',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
