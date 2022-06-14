@@ -102,7 +102,13 @@
                                         <?php if($this->session->userdata('role') == 1 && 2){ ?>
                                             <td><?= $rows->username ?></td>
                                         <?php } ?>
-                                        <td><?= $rows->jam_masuk ?></td>
+                                        <td>
+                                            <?php if($rows->jam_masuk == '00:00:00'){ ?>
+                                                -
+                                            <?php }else{ ?>
+                                                <?= $rows->jam_masuk ?>
+                                            <?php } ?>
+                                        </td>
                                         <td>
                                             <?php if($rows->jam_keluar == '00:00:00'){ ?>
                                                 -
